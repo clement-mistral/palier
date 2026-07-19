@@ -7,7 +7,7 @@ import androidx.compose.material.icons.outlined.History
 import androidx.compose.material.icons.outlined.Settings
 import androidx.compose.ui.graphics.vector.ImageVector
 
-enum class Destination (
+enum class BottomNavDestination (
     val route: TopLevelRoute,
     val label: String,
     val icon: ImageVector
@@ -15,5 +15,5 @@ enum class Destination (
     Today(TodayRoute, "Aujourd'hui", Icons.Outlined.Today),
     Synthesis(SynthesisRoute, "Synthèse", Icons.Outlined.Insights),
     History(HistoryRoute, "Historique", Icons.Outlined.History),
-    Settings(SettingsRoute, "Réglages", Icons.Outlined.Settings)
+    Settings(SettingsRoute, "Réglages", Icons.Outlined.Settings),
 }

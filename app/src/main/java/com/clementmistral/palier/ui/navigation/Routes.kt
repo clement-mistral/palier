@@ -8,3 +8,5 @@ sealed interface TopLevelRoute
 @Serializable data object SynthesisRoute : TopLevelRoute
 @Serializable data object HistoryRoute : TopLevelRoute
 @Serializable data object SettingsRoute : TopLevelRoute
+@Serializable data object TreatmentsRoute : TopLevelRoute
+@Serializable data object RemindersRoute : TopLevelRoute
